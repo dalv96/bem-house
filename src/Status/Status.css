@@ -1,0 +1,18 @@
+.Status {
+    display: flex; 
+    font-size: 18px;
+}
+  
+.Status-Item {
+    flex: 1 1 auto;
+}
+  
+.Status-Name, .Status-Value {
+    display: inline-block;
+}
+  
+.Status-Value {
+    margin-left: 10px;
+    font-weight: bold;
+}
+  

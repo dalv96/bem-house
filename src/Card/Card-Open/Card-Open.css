@@ -1,0 +1,15 @@
+.Card-Open {
+    z-index: 1;
+    cursor: pointer;
+    position: absolute;
+    transition: 0.3s ease;
+    opacity: 0;
+    padding: 20px;
+
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    right: 0;
+    bottom: 0;
+    background-color: #f3f3f3;
+}

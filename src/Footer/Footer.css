@@ -1,0 +1,23 @@
+.Footer {
+    display: flex;
+    background: #fff;
+  
+    font-size: 12px;
+    align-items: center;
+}
+
+.Footer-Link {
+    white-space: nowrap;
+    margin: 0 0 15px 15px;
+}
+
+.Footer-Link:first-child {
+    margin-left: 40px;
+}
+
+.Footer-Company {
+    margin: 0 40px 15px auto;
+
+    color: #333;
+    opacity: 0.6;
+}

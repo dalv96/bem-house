@@ -1,0 +1,21 @@
+.Link_theme_standart {
+    text-decoration: none;
+    color: #333;
+    opacity: 0.6;
+  
+    transition: color .15s ease-out;
+}
+
+.Link_theme_standart:hover {
+    color: #e00;
+}
+
+.Link_size_m {    
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.Link_size_s {
+    font-weight: lighter;
+    font-size: 9pt;
+}

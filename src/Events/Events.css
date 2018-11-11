@@ -1,0 +1,11 @@
+.Events {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+@media all and (max-width: 750px) {
+    .Events {
+      grid-gap: 15px;
+    }
+}

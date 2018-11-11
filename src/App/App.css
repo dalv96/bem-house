@@ -1,0 +1,15 @@
+.App {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+
+    display: grid;
+    grid-template-rows: 90px 1fr 64px;
+}
+
+@media all and (max-width: 500px) {
+    .App {
+        grid-template-rows: 75px 1fr 64px;
+    }
+}
+  

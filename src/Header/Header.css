@@ -1,0 +1,12 @@
+.Header {
+    background: #fff;
+    display: flex;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+.Header-Logo {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    margin: 0 40px 0 40px;
+}
