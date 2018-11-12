@@ -10,18 +10,18 @@ class Status extends Component {
     const { data } = this.props;
     
     return (
-        <div className={cnStatus()}>
-            {
-                data.map( item => {
-                    return (
-                        <div className={cnStatus('Item')}>
-                            <div className={cnStatus('Name')}>{item.name}:</div>
-                            <div className={cnStatus('Value')}>{item.val}</div>
-                        </div>
-                    )
-                })
-            }
-        </div>
+      <div className={cnStatus()}>
+        {
+          data.map( (item, idx) => {
+            return (
+              <div key={idx} className={cnStatus('Item')}>
+                <div className={cnStatus('Name')}>{item.name}:</div>
+                <div className={cnStatus('Value')}>{item.val}</div>
+              </div>
+            )
+          })
+        }
+      </div>
     );
   }
 }

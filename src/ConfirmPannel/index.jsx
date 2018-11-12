@@ -12,8 +12,8 @@ class ConfirmPannel extends Component {
     
     return (
         <div className={cnConfirmPannel()}>
-            <Button size="m" theme="standart" type="agree" text="Да"/>
-            <Button size="m" theme="standart" text="Нет"/>
+          <Button size="m" theme="standart" type="agree" text="Да"/>
+          <Button size="m" theme="standart" text="Нет"/>
         </div>
     );
   }
