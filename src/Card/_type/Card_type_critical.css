@@ -1,0 +1,15 @@
+.Card_type_critical  {
+    background-color: #DB5341;
+}
+
+.Card_type_critical .Card-Head {
+    color: #fff;
+}
+
+.Card_type_critical .Card-Body {
+    padding-top: 20px;
+}
+
+.Card_type_critical:hover {
+    background-color: #DB5341;
+}

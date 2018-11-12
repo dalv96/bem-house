@@ -15,7 +15,7 @@ class Events extends Component {
         {
           events.map( item => {
             return (
-              <Card key={item.id} event={item}/>
+              <Card size={item.size} type={item.type} key={item.id} event={item}/>
             )
           })
         }

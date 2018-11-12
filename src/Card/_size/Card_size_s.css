@@ -1,0 +1,24 @@
+.Card_size_s {
+    grid-column: span 2;
+}
+
+.Card_size_s .Card-Info {
+    display: block;
+}
+  
+.Card_size_s .Card-Date {
+    margin-top: 20px;
+}
+
+@media all and (max-width: 1050px) {
+    .Card_size_s {
+      grid-column: span 3;
+    }
+}
+  
+@media all and (max-width: 750px) {
+    .Card_size_s {
+        grid-column: span 6;
+    }
+}
+  
