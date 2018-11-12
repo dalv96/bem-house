@@ -1,0 +1,7 @@
+.Button_type_agree {
+  background-color: #FFD93E;
+}
+
+.Button_type_agree:hover {
+  background-color: #FFD333;
+}

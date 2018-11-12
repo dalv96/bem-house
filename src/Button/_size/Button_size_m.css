@@ -1,0 +1,11 @@
+.Button_size_m {
+    width: 130px;
+  
+    padding: 15px 0;
+  }
+  
+@media all and (max-width: 750px) {
+    .Button_size_m {
+      padding: 10px 0;
+    }
+}

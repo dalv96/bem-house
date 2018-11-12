@@ -1,23 +1,12 @@
-import React, { Component } from 'react';
-import { cn } from '@bem-react/classname';
+import { compose } from '@bem-react/core';
 
+import { Button as Base } from './Button';
+import { ButtonTypeAgree } from './_type/Button_type_agree';
+import { ButtonSizeM } from './_size/Button_size_m';
 
-import './Button.css';
-
-const cnButton = cn('Button');
-
-class Button extends Component {
-  render() {
-    const { props } = this;
-    return (
-        <button className={cnButton({
-            size: props.size,
-            theme: props.theme,
-            type: props.type})}>
-        {props.text}
-        </button>
-    );
-  }
-}
+const Button = compose(
+  ButtonSizeM,
+  ButtonTypeAgree
+)(Base);
 
 export default Button;
